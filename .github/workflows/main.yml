@@ -17,7 +17,7 @@ jobs:
       - name: Build iOS App
         run: |
           xcodebuild archive \
-            -project ControllerApp/ControllerApp.xcodeproj \
+            -project VirtualController.xcodeproj \
             -scheme ControllerApp \
             -sdk iphoneos \
             -archivePath build/ControllerApp.xcarchive \
